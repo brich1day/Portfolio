@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Product Page</title>
+</head>
+<body>
+    
+</body>
+</html>
+<head>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 165px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+ /* style information as a card */
+ .wrapper{
+            display:grid;
+            grid-template-columns:repeat(6, 1fr);
+            grid-gap:1em;   
+            /* grid-auto-rows:100px; */
+            grid-auto-rows: minmax(100px, auto);
+            padding-top: 1em;
+          }
+      .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          /* width: 25%; */
+          /* margin: 2px; */
+          /* width: 158px;
+          height:198px; */
+      }
+      .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      .container {
+          padding: 1px 8px;
+          /* background: rgba(0, 73, 144, 0.9); */
+          /* background: rgb(0, 73, 144); */
+          color:black;
+          font-size: 16px;
+      }
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#doorbell">Doorbell</a>
+  <a href="#cameras">Cameras</a>
+  <a href="#routers_extenders">Wi/Fi Routers and Extenders</a>
+  <a href="#smokealarm">Smoke Alarm</a>
+  <a href="#thermostat">Thermostats</a>
+</div>
+
+<div class="main">
+  <section id="doorbell">
+    <h2>Doorbells</h2>
+    <hr>
+    <div  class="wrapper"> 
+        <div class="card">
+            <img src="img/doorbells/ring.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Ring Chime Pro</b></h4> 
+                <p>818558</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/doorbells/ring_bronze.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Ring Venetian Bronze Wireless Doorbell</b></h4> 
+                <p>743344</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/doorbells/ring_satin.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Ring Satin Nickel Wireless Doorbell</b></h4> 
+                <p>743018</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/doorbells/august_silver.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>August Silver Video Doorbell Kit</b></h4>
+                <p>786052</p> 
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="cameras">
+    <h2>Security Cameras</h2>
+    <hr>
+      <div class="wrapper">
+          <div class="card">
+              <img src="img/cameras/arlo_outdoorcam1.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Arlo Digital Wireless Outdoor Security Camera Kit with Night Vision</b></h4> 
+                  <p>805125</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/arlo_outdoorcam2.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Arlo Digital Wireless Outdoor 2 Security Camera Kit with Night Vision</b></h4> 
+                  <p>804945</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/arlocam_single.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Arlo Pro Digital Wireless Outdoor Security Camera with Night Vision</b></h4> 
+                  <p>836331</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/arlohdcam_single.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Arlo Pro HD System Digital Wireless Outdoor Security Camera Kit with Night Vision</b></h4> 
+                  <p>836328</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/arlohdcam_double.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>NETGEAR Pro Digital Wireless Outdoor 2 Security Camera Kit with Night Vision</b></h4> 
+                  <p>836327</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/arlohdcam_three.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>NETGEAR Pro HD Digital Wireless Outdoor 3 Security Camera Kit with Night Vision</b></h4> 
+                  <p>936325</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/blinkcam1.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>BLINK CAMERA XT - 1 CAM KIT</b></h4> 
+                  <p>884371</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/blinkcam3.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>BLINK CAMERA XT - 3 CAM KIT</b></h4> 
+                  <p>884372</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/canary_100uswt.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Canary Digital Wireless Indoor Security Camera with Night Vision CAN 100USWT</b></h4> 
+                  <p>528505</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/canary_100usbk.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Canary Digital Wireless Indoor Security Camera with Night Vision CAN100USBK</b></h4> 
+                  <p>528506</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/circle2.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Circle 2 Wired Indoor/Outdoor Security Camera</b></h4> 
+                  <p>880347</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/guardzilla.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>GUARDZILLA Digital Wireless Indoor Security Camera with Night Vision</b></h4> 
+                  <p>528508</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/nest_nc1102es.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Nest Digital Wireless Indoor Only Security Camera with Night Vision NC1102ES</b></h4> 
+                  <p>740999</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/nest_nc1104us.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Nest 3-Pack Digital Wireless Indoor Only Security Cameras with Night Vision</b></h4> 
+                  <p>722397</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/nest_nc2100es.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Nest Digital Wireless Outdoor Security Camera with Night Vision NC2100ES</b></h4> 
+                  <p>804952</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/cameras/nest_nc2400es.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Nest 2-Pack Digital Wireless Outdoor Security Cameras with Night Vision </b></h4> 
+                  <p>820859</p> 
+              </div>
+          </div>
+
+
+
+
+
+
+        </div>
+  </section>
+  <section id="routers_extenders">
+    <h2>WI/FI Routers and Extenders</h2>
+    <hr>     
+      <div class="wrapper">
+          <div class="card">
+              <img src="img/routers_extenders/belkin_ea6350.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>BELKIN 6-GHz 802.11A Wireless Router EA6350-2P</b></h4> 
+                  <p>753209</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/belkin_re4100.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>BELKIN 2.4-GHz ISM WPA/WPA2 802.11N Wireless Signal Extender RE4100W-4A</b></h4> 
+                  <p>753210</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/belkin_re6700.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>BELKIN 2.4-GHz ISM WPA/WPA2 802.11N Wireless Signal Extender RE6700</b></h4> 
+                  <p>753212</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/ea8500.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Linksys 6-GHz 802.11A Wireless Router EA8500</b></h4> 
+                  <p>753211</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/ea61004a.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Linksys 6-GHz 802.11A Wireless Router EA6100-4A</b></h4> 
+                  <p>753206</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/ea69004a.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Linksys 6-GHz 802.11A Wireless Router EA6900-4A</b></h4> 
+                  <p>753207</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/ring_solarpanel.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Ring 7.5-in x 6-in x 1.25-in 2-Watt Portable Solar Panel 88RG000FC000</b></h4> 
+                  <p>753252</p> 
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/routers_extenders/ringextend.jpg" alt="Avatar" style="width:100%">
+              <div class="container">
+                  <h4><b>Ring Multi Color Doorbell Extender 88LP000CH000</b></h4> 
+                  <p>806946</p> 
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="smokealarm">
+    <h2>Smoke Alarms</h2>
+    <hr>
+    <div class="wrapper">
+        <div class="card">
+            <img src="img/smokealarm/nest_s3000bwes.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Nest Protect Battery-Powered Photoelectric Combination Smoke and Carbon Monoxide Detector</b></h4> 
+                <p>753252</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/smokealarm/smokealarm.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Battery-Operated Carbon Smoke Alarm</b></h4> 
+                <p>505522</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/smokealarm/zcombo.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Battery-Operated Carbon Monoxide Smoke Detector</b></h4> 
+                <p>505521</p> 
+            </div>
+        </div>
+    </div>
+  </section>
+  </section>
+  <section id="thermostat">
+    <h2>Thermostats</h2>
+    <hr>
+    <div class="wrapper">
+      <div class="card">
+          <img src="img/thermostat/ecobee4.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>ecobee4 Wi-Fi Thermostat with Sensor</b></h4> 
+              <hr>
+              <p>831390</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/gocontrol.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>GoControl 7-Day Programmable Thermostat</b></h4> 
+              <hr>
+              <p>755152</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/honeywell_wifirth.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Honeywell 7-Day Programmable Thermostat Built-In Wifi</b></h4> 
+              <hr>
+              <p>486110</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/ecobee3.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>ecobee 3 Lite Black Thermostat Built-in Wifi</b></h4> 
+              <hr>
+              <p>786052</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/honeywellrth.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Honeywell 7-Day Touch Screen Programmable Thermostat Built-In Wifi</b></h4> 
+              <hr>
+              <p>171234</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/lyric.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Honeywell Lyric T-5 Thermostat</b></h4> 
+              <hr>
+              <p>810420</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/nest_ss_thermostat.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Nest Stainless Steel Learning Thermostat with Wi-Fi</b></h4>
+              <hr> 
+              <p>753160</p> 
+          </div>
+      </div>
+      <div class="card">
+          <img src="img/thermostat/nest_t3021us.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Nest Copper Learning Thermostat with Wi-Fi</b></h4> 
+              <hr>
+              <p>809535</p> 
+          </div>
+      </div>
+      
+      <div class="card">
+          <img src="img/thermostat/sensi_thermostat.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+              <h4><b>Emerson SENSI Thermostat</b></h4>
+              <hr> 
+              <p>831393</p> 
+          </div>
+      </div>
+    </div>   
+  </section>
+</div>  
+     
+</body>
+</html> 
